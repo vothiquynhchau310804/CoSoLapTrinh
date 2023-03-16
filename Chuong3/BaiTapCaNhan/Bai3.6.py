@@ -1,4 +1,3 @@
-print('Nhap ba canh cua tam giac:')
 a=float(input())
 b=float(input())
 c=float(input())

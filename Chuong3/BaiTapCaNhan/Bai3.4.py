@@ -1,4 +1,3 @@
-print('Diem thi lan luot cua 3 mon: Toan, Ly, Hoa')
 T=int(input())
 L=int(input())
 H=int(input())
