@@ -8,5 +8,5 @@ elif KW <= 200:
 else:
     thanhtien = 100 * 550 + 50 * 750 + 50 * 950 + (KW - 200) * 1350
 ThueVAT = thanhtien * 0.1
-ThanhtiencoVAT = thanhtien + ThueVAT
-print("Phai tra=",ThanhtiencoVAT)
+ThanhtiencoVAT =thanhtien + ThueVAT
+print("Phai tra=",ThanhtiencoVAT,sep='')
