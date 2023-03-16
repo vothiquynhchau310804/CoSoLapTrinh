@@ -5,7 +5,7 @@ elif thang=='4' or thang=='tu' or thang=='6' or thang=='sau' or thang=='9'or tha
     print('Thang',thang,'co 30 ngay')
 elif thang=='2' or thang=='hai':
     nam=int(input('Nam: '))
-    if nam%4==0:
+    if nam%4==0 and nam%100!=0:
         print('Thang',thang,'co 29 ngay')
     else:
         print('Thang',thang,'co 28 ngay')
