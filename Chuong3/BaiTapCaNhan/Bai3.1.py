@@ -1,5 +1,4 @@
 import math
-print('Nhap ba canh cua tam giac:')
 a=float(input('a='))
 b=float(input('b='))
 c=float(input('c='))
