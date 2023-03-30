@@ -9,7 +9,7 @@ def xuly(a,b):
         n=math.sqrt(a**2+b**2)
         return n
 def inkq(n):
-    print('Canh huyen =',n)
+    print('Canh huyen=',n)
 a,b=nhap()
 n=xuly(a,b)
 inkq(n)
