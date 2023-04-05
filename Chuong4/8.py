@@ -6,6 +6,9 @@ def NhapVaDem(n):
     dem=0
     for i in range(1,n+1):
         x=int(input())
+        #if x!=0 and x%2==0:
+        if x==0:
+            continue
         if x%2==0:
             dem=dem+1
     return dem
