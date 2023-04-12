@@ -1,8 +1,7 @@
 def nhap():
     toantu=input('Nhap toan tu: ')
     return toantu
-def precedence(toantu):
-    # if toantu=='+'or toantu=='-' or toantu=='*' or toantu=='/':
+def xuly(toantu):
     if toantu=='+' or toantu=='-':
         print('1')
     elif toantu=='*' or toantu=='/':
@@ -12,4 +11,4 @@ def precedence(toantu):
     else:
         print('-1')
 toantu=nhap()
-precedence(toantu)
+xuly(toantu)

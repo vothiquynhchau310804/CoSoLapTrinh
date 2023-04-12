@@ -8,7 +8,7 @@ def xuly(a,b):
     elif a==4 or a==6 or a==9 or a==11:
         print('Thang',a,'nam',b,'co 30 ngay !')
     elif a==2:
-        if b%4==0 and (b%100!=0 or b%400==0):
+        if (b%4==0 and b%100!=0) or b%400==0:
             print('Thang',a,'nam',b,'co 29 ngay !')
         else:
             print('Thang',a,'nam',b,'co 28 ngay !')           
