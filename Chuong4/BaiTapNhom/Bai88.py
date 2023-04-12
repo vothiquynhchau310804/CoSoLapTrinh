@@ -8,8 +8,10 @@ def xuly(a,b,c):
         return True
     else:
         return False
+def inkq(a,b,c):
+    if xuly(a,b,c):
+        print("Co the tao thanh mot tam giac.")
+    else:
+        print("Khong the tao thanh mot tam giac.")
 a,b,c=nhap()
-if xuly(a,b,c):
-    print("Co the tao thanh mot tam giac.")
-else:
-    print("Khong the tao thanh mot tam giac.")
+inkq(a,b,c)

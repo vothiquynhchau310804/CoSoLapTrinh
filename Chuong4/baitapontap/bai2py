@@ -1,0 +1,22 @@
+import math
+def nhap():
+    n=int(input('n='))
+    return n
+def lasonguyento(x):
+
+    for i in range(2,int(math.sqrt(x)+1)):
+        if x%i==0:
+            return False
+    return True
+def inkq(n):
+    j=[]
+    dem=0
+    k=2
+    while dem<n:
+        if lasonguyento(k)==True:
+            j.append(str(k))
+            dem+=1
+        k=k+1
+    print(', '.join(j))
+n=nhap()
+inkq(n)

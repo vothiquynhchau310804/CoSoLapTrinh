@@ -9,8 +9,10 @@ def LaSoNguyenTo(x):
         if x % i == 0:
             return False
     return True
+def inKQ(x):
+    if LaSoNguyenTo(x):
+     print(x,'la so nguyen to')
+    else:
+        print(x,'khong phai la so nguyen to')
 x=nhap()
-if LaSoNguyenTo(x):
-    print(x,'la so nguyen to')
-else:
-    print(x,'khong phai la so nguyen to')
+inKQ(x)

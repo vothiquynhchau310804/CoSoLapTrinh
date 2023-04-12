@@ -1,8 +1,8 @@
-catNames = [ ]
+catNames =[ ]
 while True:
     print('Enter the name of cat ' + str(len(catNames) + 1) + ' (Or enter nothing to stop.):')
     name = input()
-    if name == '': #khi gia tri nhap vao la rong
+    if name =='': #khi gia tri nhap vao la rong
         break
     catNames = catNames + [name] # list concatenation
 print('The cat names are:')
