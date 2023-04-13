@@ -1,22 +1,22 @@
 def Nhap():
-    s=input()
-    return s
-def Viethoa(s):
-    ch=s.replace('i','I')
-    if len(s)>0:
-        ch=ch[0].upper()+ch[1:]
+    n=input()
+    return n
+def vietHoa(n):
+    chu=n.replace('i','I')
+    if len(n)>0:
+        chu=chu[0].upper()+chu[1:]
     x=0
-    while x<len(s):
-        if ch[x]=='.' or ch[x]=='!' or ch[x]==',' or ch[x]=='?':
+    while x<len(n):
+        if chu[x]=='.' or chu[x]=='!' or chu[x]==',' or chu[x]=='?':
             x=x+1
-            while x<len(s) and ch[x]==' ':
+            while x<len(n) and chu[x]==' ':
                 x+=1
-            if x<len(s):
-                ch = ch[0:x] + ch[x].upper() + ch[x+1:]
+            if x<len(n):
+                chu = chu[0:x] + chu[x].upper() + chu[x+1:]
         x+=1
-    return ch
+    return chu
 def InKQ(kq):
     print(kq)
-s=input()
-kq=Viethoa(s)
+n=input()
+kq=vietHoa(n)
 print(kq)
