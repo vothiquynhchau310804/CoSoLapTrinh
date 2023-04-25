@@ -1,3 +1,11 @@
+def Input():
+    x=int(input())
+    n=int(input())
+    L=[]
+    for i in range(n):
+        a=int(input())
+        L=L+[a]
+    return L,x
 def delete(L,x):
     i=0
     while i<len(L):
@@ -5,8 +13,6 @@ def delete(L,x):
             L=L[:i]+L[i+1:]
         else:
             i=i+1
-    return L
-L=[1,2,3,4,5]
-x=3
-L=delete(L,x)
-print(L)
+    print(L)
+L,x=Input()
+delete(L,x)

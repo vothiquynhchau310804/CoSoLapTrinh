@@ -1,12 +1,3 @@
-# def LaSoNguyenTo(x):
-#     souoc=0
-#     for i in range(1,x+1):
-#         x%i==0
-#         souoc+=1
-#     if souoc==2:
-#         return True
-#     else:
-#         return False
 import math
 def LaSoNguyenTo(x):
     if x < 2:

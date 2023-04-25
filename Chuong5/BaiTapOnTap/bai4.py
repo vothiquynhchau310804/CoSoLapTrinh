@@ -1,8 +1,14 @@
+def Input():
+    n=int(input())
+    L=[]
+    for i in range(n):
+        a=int(input())
+        L=L+[a]
+    return L
 def count(L):
     dem=0
     for i in L:
         dem=dem+1
-    return dem
-L=[1,2,3,4,5,6,7,8,9,10]
-L=count(L)
-print(L)
+    print(dem)
+L=Input()
+count(L)
