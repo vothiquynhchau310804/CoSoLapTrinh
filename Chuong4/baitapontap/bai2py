@@ -3,7 +3,6 @@ def nhap():
     n=int(input('n='))
     return n
 def lasonguyento(x):
-
     for i in range(2,int(math.sqrt(x)+1)):
         if x%i==0:
             return False
