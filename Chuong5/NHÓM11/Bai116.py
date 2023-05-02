@@ -2,7 +2,10 @@ def pig_latin(word):
     vowels = "aeiouAEIOU"
     punctuations = '''!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''
     if word[0] in vowels:
-        new_word = word + "way" 
+        if word[-1] in punctuations:
+            new_word = word[1:-1].capitalize() + word[0].lower() + "way" + word[-1]
+        else:
+            new_word = word[1:].capitalize()+ word[0].lower() + "way"
     else:
         if len(word) < 2:
             new_word = word

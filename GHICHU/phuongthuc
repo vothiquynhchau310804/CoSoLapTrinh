@@ -1,0 +1,10 @@
+# # reverse() thực hiện đảo ngược
+# clear() thực hiện xóa tất cả các phần tử trong list
+# count() thực hiện đếm số phần tử x xuất hiện trong list
+# copy thực hiện tạo một bản sao mới của list
+# pop thực hiện xóa và lấy ra giá trị của phần tử có số chỉ mục i trong list
+# sort sắp xếp các phần tử tăng dần
+# remove(x) xóa phần tử x đầu tiên tìm thấy trong list
+# del() cóa 1 phần tử khi biết giá trị
+# insert(i,x)  chén x vào  vị trí i hiện có trong list
+# append(x) thêm phần tử x vào cuối list
