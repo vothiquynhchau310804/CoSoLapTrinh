@@ -14,8 +14,8 @@ def MatKhau(mk):
             elif i=='$' or i=='#' or i=='@':
                 d=d+1
         if a > 0 and b > 0 and c > 0 and d>0:
-            print('True')
+            print(True)
         else:
-            print('False')
+            print(False)
 mk=Input()
 MatKhau(mk)

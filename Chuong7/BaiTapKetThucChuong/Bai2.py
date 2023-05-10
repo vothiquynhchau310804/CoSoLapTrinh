@@ -1,5 +1,5 @@
 def Input():
-    st=input()
+    st=input().strip()
     return st
 def XuLy(st):
     st=st.lower()
