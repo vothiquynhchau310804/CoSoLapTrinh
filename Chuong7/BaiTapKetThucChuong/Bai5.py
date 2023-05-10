@@ -16,3 +16,4 @@ def XuLy(st,s):
             
 st,s=Input()
 XuLy(st,s)
+

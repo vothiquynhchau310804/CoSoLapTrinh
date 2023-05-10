@@ -1,0 +1,12 @@
+# f=open('vd1.txt','w')
+# f.write('my first file\n')
+# f.write('This file\n\n')
+# f.write('comtains three lines\n')
+# f.close()
+f=open("input.txt","r")
+n=f.readline()
+n=int(n)   #chuyen chuoi sang so
+print(n)
+st=f.readline()
+L=st.split(' ')
+print(L)
