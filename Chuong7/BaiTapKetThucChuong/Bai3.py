@@ -17,5 +17,7 @@ def MatKhau(mk):
             print(True)
         else:
             print(False)
+    else:
+        print(False)
 mk=Input()
 MatKhau(mk)

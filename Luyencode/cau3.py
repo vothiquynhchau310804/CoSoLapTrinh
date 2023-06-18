@@ -11,4 +11,3 @@ if sum==9:
     print('YES')
 else:
     print('NO')
-    

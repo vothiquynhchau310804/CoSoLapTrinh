@@ -2,9 +2,24 @@
 # clear() thực hiện xóa tất cả các phần tử trong list
 # count() thực hiện đếm số phần tử x xuất hiện trong list
 # copy thực hiện tạo một bản sao mới của list
-# pop thực hiện xóa và lấy ra giá trị của phần tử có số chỉ mục i trong list
-# sort sắp xếp các phần tử tăng dần
+# pop thực hiện xóa và lấy ra giá trị của phần tử có số chỉ mục i trong list  nếu i trống thì mặc định lấy phần tử cuối cùng trong list
+# sort sắp xếp các phần tử tăng dần  nếu thêm tham số reverse=True là giảm dần
 # remove(x) xóa phần tử x đầu tiên tìm thấy trong list
-# del() cóa 1 phần tử khi biết giá trị
+# del() cóa 1 phần tử khi biết số chỉ mục
 # insert(i,x)  chén x vào  vị trí i hiện có trong list
 # append(x) thêm phần tử x vào cuối list
+
+# isalpha() trả về True nếu chuỗi chỉ chứa các ký tự chữ cái và không có ký tự trắng
+# isnumeric(), isdecimal() True nếu chuỗi chỉ chứa các ký tự chữ số và không có ký tự trắng
+# isalnum() True nếu chỉ chứa chữ cái, số và không có ký tự trắng
+# istitle() True chỉ chứa các từ, mỗi từ được viết thường và viết hoa chữ cái đầu
+# startswith(str) True nếu chuỗi bắt đầu bằng chuỗi str,endswith(str) kết thúc bằng chuỗi str
+# join(list of string) list of string là một list gồm các chuỗi ký tự. Join() dùng để nối các phần tử trong list... bằng 1 chuỗi tương ứng của phương thức
+# split(str)  dùng để tách chuỗi từ nằm trong chuỗi tương ứng thành 1 list, mỗi phần tử nằm trong 1 list là chuỗi con
+# rjust(n,ch) phải ljust() trái, center() giữa : trả về 1 chuỗi mới khi thêm vào chuỗi gốc các ký tự ch, sao cho chiều dài của chuỗi đúng bằng n ký tự và chuỗi ggocs được đặt bên phải, trái, giữa
+# strip(str) 2 đầu , rstrip(), lstrip() : trả về chuỗi mới trong đó đã xóa các ký tự có trong chuỗi str ở 2 đầu, phải, trái
+# find(str, n) tìm chuỗi str trong chuỗi gốc bắt đầu từ ký tự có số chỉ mục là n, n để tróng thì mặc định bằng 0
+# nó trả về vị trí số chỉ mục lần đầu tiên đc tìm thấy từ trái sang nếu k tìm thấy trả về -1
+# replace(cũ, mới,n) tìm thay thế chuỗi cũ thành chuỗi mới với n lần tìm và thay thế , ko có n thì mặc định là tất cả
+# capitalize()  viết hoa chữ cái đầu tiên
+# isspace() true ký tự trắng, dầu tab,  dấu ngắt dòng
